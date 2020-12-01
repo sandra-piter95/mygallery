@@ -3343,6 +3343,7 @@ Author URL: https://themeforest.net/user/codesymbol/
                     max-height: inherit;
                 }
                 header > nav > ul > li:first-child {
+                    display: none;
                     margin-top: 0;
                     padding: 0;
                 }
@@ -3373,7 +3374,7 @@ Author URL: https://themeforest.net/user/codesymbol/
                 header > nav > ul > li.mega-menu.two-columns > ul,
                 header > nav > ul > li.mega-menu.three-columns > ul,
                 header > nav > ul > li.mega-menu.four-columns > ul {     
-                    display: none;
+                    display: block;
                     padding: 10px 0;
                     left: 0;
                     top: 0;
